@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class MainClass {
     public static void main(String[] args) {
-        BinarySearchTree binarySearchTree=new BinarySearchTree();
+        Tree tree =new Tree();
         Scanner sc=new Scanner(System.in);
-        binarySearchTree.insert(sc);
-        binarySearchTree.display();
-        binarySearchTree.prettyDisplay();
+        tree.insert(sc);
+        tree.display();
+        tree.prettyDisplay();
     }
 }

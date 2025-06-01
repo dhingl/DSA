@@ -2,9 +2,9 @@ package org.example.tree;
 
 import java.util.Scanner;
 
-public class BinarySearchTree {
+public class Tree {
 
-    public BinarySearchTree()
+    public Tree()
     {
 
     }
